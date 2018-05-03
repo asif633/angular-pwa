@@ -14,42 +14,42 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "assets/icons/android-chrome-512x512.png",
+            "src": "/assets/icons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/android-chrome-192x192.png",
+            "src": "/assets/icons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/apple-touch-icon.png",
+            "src": "/assets/icons/apple-touch-icon.png",
             "sizes": "180x180",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/mstile-70x70.png",
+            "src": "/assets/icons/mstile-70x70.png",
             "sizes": "70x70",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/mstile-144x144.png",
+            "src": "/assets/icons/mstile-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/mstile-150x150.png",
+            "src": "/assets/icons/mstile-150x150.png",
             "sizes": "150x150",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/mstile-310x150.png",
+            "src": "/assets/icons/mstile-310x150.png",
             "sizes": "310x150",
             "type": "image/png"
         },
         {
-            "src": "assets/icons/mstile-310x310.png",
+            "src": "/assets/icons/mstile-310x310.png",
             "sizes": "310x310",
             "type": "image/png"
         }
