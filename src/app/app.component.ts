@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,10 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit() {
-    this.httpClient.get('https://contextualwebsearch.com/api/Search/NewsSearchAPI?q=angular&count=50&autoCorrect=true')
+    this.httpClient.get('https://contextualwebsearch-websearch-v1.p.mashape.com/api/Search/NewsSearchAPI?count=50&q=Angular&autocorrect=true', {
+      headers: new HttpHeaders().set("X-Mashape-Key", "ajInRFzpDYmshqG7ZoZc4SgU0a8Bp1v2EP5jsnBooZvZMfzzxR")
+      .set("X-Mashape-Host", "contextualwebsearch-websearch-v1.p.mashape.com") 
+    })
     .subscribe((data:any) => this.newsitems = data.value);
   }
 }

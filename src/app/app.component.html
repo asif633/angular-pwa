@@ -1,6 +1,6 @@
 <div class="col s12 m7">
   <h2 class="header">Angular News</h2>
-  <div class="preloader-wrapper big active" *ngIf="newsitems.length <= 0; else other_content">
+  <div class="preloader-wrapper big active center-align" *ngIf="!newsitems">
     <div class="spinner-layer spinner-blue-only">
       <div class="circle-clipper left">
         <div class="circle"></div>
@@ -13,7 +13,6 @@
       </div>
     </div>
   </div>
-  <ng-template #other_content>
     <div *ngFor="let news of newsitems">
       <div class="card horizontal">
         <div class="card-image">
@@ -31,5 +30,4 @@
         </div>
       </div>
     </div>
-  </ng-template>
 </div>
