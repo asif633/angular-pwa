@@ -1,14 +1,17 @@
 {
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Angular-Pwa",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://asif633.github.io/angular-pwa/",
     "short_name": "Angular-Pwa",
-    "name": "Angular PWA News Feeds",
-    "start_url": "/",
-
+    "description": "Learn and Keep Up With The Angular Ecosystem",
+    "orientation": "any",
     "theme_color": "#f48c5b",
     "background_color": "#ffffff",
-
-    "display": "standalone",
-    "orientation": "portrait",
-
+    "related_applications": [],
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "/assets/icons/android-chrome-512x512.png",
@@ -51,5 +54,4 @@
             "type": "image/png"
         }
     ]
-
-}
+  }
