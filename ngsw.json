@@ -9,10 +9,10 @@
       "urls": [
         "https://asif633.github.io/angular-pwa/favicon.ico",
         "https://asif633.github.io/angular-pwa/index.html",
-        "https://asif633.github.io/angular-pwa/inline.cf8bf0c847c6b893991a.bundle.js",
-        "https://asif633.github.io/angular-pwa/main.9cac79140902c8a7065e.bundle.js",
+        "https://asif633.github.io/angular-pwa/inline.adb218286893c0d167ea.bundle.js",
+        "https://asif633.github.io/angular-pwa/main.31813a644c6a31f23dfd.bundle.js",
         "https://asif633.github.io/angular-pwa/polyfills.46af3f84a403e219371b.bundle.js",
-        "https://asif633.github.io/angular-pwa/styles.d7794d6680ef64cadbcb.bundle.css"
+        "https://asif633.github.io/angular-pwa/styles.600f8e953cd6f705ea46.bundle.css"
       ],
       "patterns": []
     },
@@ -40,7 +40,7 @@
     {
       "name": "api-freshness",
       "patterns": [
-        "\\/bing-news"
+        "\\/"
       ],
       "strategy": "freshness",
       "maxSize": 100,
@@ -51,7 +51,6 @@
     {
       "name": "api-performance",
       "patterns": [
-        "\\/",
         "\\/top"
       ],
       "strategy": "performance",
@@ -61,17 +60,17 @@
     }
   ],
   "hashTable": {
-    "https://asif633.github.io/angular-pwa/inline.cf8bf0c847c6b893991a.bundle.js": "6607d9cdaf582e7494768b2f9b5d6638a137d22f",
+    "https://asif633.github.io/angular-pwa/inline.adb218286893c0d167ea.bundle.js": "7749db558dcc0fa95ee8c2e41c4535a054ea31e2",
     "https://asif633.github.io/angular-pwa/assets/icons/android-chrome-192x192.png": "f1e5b6dd5c2c8920d5a9d6c321c61402e1b90184",
-    "https://asif633.github.io/angular-pwa/main.9cac79140902c8a7065e.bundle.js": "c9165b51efff7620161824c5cf43a7754d6a0332",
+    "https://asif633.github.io/angular-pwa/main.31813a644c6a31f23dfd.bundle.js": "29d9f64192074da07c61f4a57c842fd9c3764063",
     "https://asif633.github.io/angular-pwa/assets/icons/android-chrome-512x512.png": "da65161323f387e731dd05ecee45433cb7ee6039",
     "https://asif633.github.io/angular-pwa/polyfills.46af3f84a403e219371b.bundle.js": "2433a5447fd85f5a3e010ff9c5fd06cfb2c8ddcd",
     "https://asif633.github.io/angular-pwa/assets/icons/apple-touch-icon.png": "02cdfffd4896da90e456a6fd79cc7ae3cca8a0ba",
-    "https://asif633.github.io/angular-pwa/styles.d7794d6680ef64cadbcb.bundle.css": "d5614cf641a3782e0897245a7015513fb366edce",
+    "https://asif633.github.io/angular-pwa/styles.600f8e953cd6f705ea46.bundle.css": "cc0f56d45a0337a5a060dbbaef23411fc4401a4c",
     "https://asif633.github.io/angular-pwa/assets/icons/favicon-16x16.png": "69e1011e95898763b34565d5cec128a61e3cd766",
     "https://asif633.github.io/angular-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://asif633.github.io/angular-pwa/assets/icons/favicon-32x32.png": "7520f520c6b29564ed6f33e3faafb396e228af75",
-    "https://asif633.github.io/angular-pwa/index.html": "f2eb7be619a142cb674ba75316c167aee40af6d5",
+    "https://asif633.github.io/angular-pwa/index.html": "6f78ede04743a125df341cf5aece82f7565aae7d",
     "https://asif633.github.io/angular-pwa/assets/icons/favicon.ico": "efb6203364d701f2dbfa4c73ebc0ef8e33a86527",
     "https://asif633.github.io/angular-pwa/assets/icons/mstile-144x144.png": "80254dfd37bb57cf47c6e933292db1b920785678",
     "https://asif633.github.io/angular-pwa/assets/icons/mstile-150x150.png": "52ebaadf277a405454ec6e7e8dbe50f09ece0a4a",
