@@ -1,6 +1,17 @@
 <div class="col s12 m7">
   <h2 class="header">Angular News</h2>
-  <div *ngFor="let news of newsitems">
+  <div class="preloader-wrapper big active" *ngIf="newitems.length <= 0">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  <div *ngFor="let news of newsitems" *ngIf="newitems.length > 0">
     <div class="card horizontal">
       <div class="card-image">
         <img [src]="news.image.url" height="300" width="300">

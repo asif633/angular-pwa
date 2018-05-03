@@ -14,7 +14,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit() {
-    this.httpClient.get('http://contextualwebsearch.com/api/Search/NewsSearchAPI?q=angular&count=50&autoCorrect=true')
+    this.httpClient.get('https://contextualwebsearch.com/api/Search/NewsSearchAPI?q=angular&count=50&autoCorrect=true')
     .subscribe((data:any) => this.newsitems = data.value);
   }
 }
