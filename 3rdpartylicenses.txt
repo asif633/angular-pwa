@@ -75,6 +75,10 @@ MIT
 MIT
 MIT
 
+@angular/forms@5.2.10
+MIT
+MIT
+
 @angular/service-worker@5.2.10
 MIT
 MIT
