@@ -27,7 +27,7 @@
   "dataGroups": [{
     "name": "api-freshness",
     "urls": [
-      "/"
+      "/bing-news"
     ],
     "cacheConfig": {
       "maxSize": 100,
@@ -38,6 +38,7 @@
   }, {
     "name": "api-performance",
     "urls": [
+      "/",
       "/top"
     ],
     "cacheConfig": {
