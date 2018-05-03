@@ -40,7 +40,7 @@
     {
       "name": "api-freshness",
       "patterns": [
-        "\\/"
+        "\\/bing-news"
       ],
       "strategy": "freshness",
       "maxSize": 100,
@@ -51,6 +51,7 @@
     {
       "name": "api-performance",
       "patterns": [
+        "\\/",
         "\\/top"
       ],
       "strategy": "performance",
