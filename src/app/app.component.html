@@ -1,31 +1,35 @@
 <div class="col s12 m7">
   <h2 class="header">Angular News</h2>
-  <div class="preloader-wrapper big active" *ngIf="newitems.length <= 0">
+  <div class="preloader-wrapper big active" *ngIf="newitems.length <= 0; else other_content">
     <div class="spinner-layer spinner-blue-only">
       <div class="circle-clipper left">
         <div class="circle"></div>
-      </div><div class="gap-patch">
+      </div>
+      <div class="gap-patch">
         <div class="circle"></div>
-      </div><div class="circle-clipper right">
+      </div>
+      <div class="circle-clipper right">
         <div class="circle"></div>
       </div>
     </div>
   </div>
-  <div *ngFor="let news of newsitems" *ngIf="newitems.length > 0">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img [src]="news.image.url" height="300" width="300">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <h4 [innerHTML]="news.title"></h4>
-          <p [innerHTML]="news.description"></p>
-          <h6 class="blue-text text-lighten-2">Date Published: {{ news.datePublished | date }}</h6>
+  <ng-template #other_content>
+    <div *ngFor="let news of newsitems">
+      <div class="card horizontal">
+        <div class="card-image">
+          <img [src]="news.image.url" height="300" width="300">
         </div>
-        <div class="card-action">
-          <a [href]="news.url" class="right">Link</a>
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 [innerHTML]="news.title"></h4>
+            <p [innerHTML]="news.description"></p>
+            <h6 class="blue-text text-lighten-2">Date Published: {{ news.datePublished | date }}</h6>
+          </div>
+          <div class="card-action">
+            <a [href]="news.url" class="right">Link</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </ng-template>
 </div>
